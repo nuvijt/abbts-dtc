@@ -10,7 +10,6 @@ import kotlin.random.nextInt
  */
 
 fun main() {
-
     val aDie = Random
     println("What`s your name?")
     val playerName = readln()
@@ -23,7 +22,6 @@ fun main() {
         val playerScore = aDie.nextInt(1..6)
         val computerScore = aDie.nextInt(1..6)
         println("Du würfelst: $playerScore  --  Computer würfelt: $computerScore")
-
         when {
             playerScore > computerScore -> {
                 println("Du gewinnst")
